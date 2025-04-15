@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 10px 10px;
+  width: 90%;
+  margin-left: 40px;
+  box-shadow: 0 3px 3px lightgray;
+  background-color: white;
+  margin-top: 60px;
+}
+.navbar,
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 13px;
+}
+.cm {
+  font-weight: bold;
+}
+
+.img1,
+.img2 {
+  margin-bottom: -4px;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 25%;
+}
+
+.signin {
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-right: 5px;
+  margin-left: 30%;
+}
+
+.campaign {
+  background-color: #281133;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.heading {
+  text-align: center;
+}
+
+.section-2 {
+  display: flex;
+
+  justify-content: center;
+}
+.donate {
+  background-color: #281133;
+  color: white;
+  padding: 10px 120px;
+  border-radius: 15px;
+}
+.section-3 {
+  margin: 20px;
+  margin-top: -1.2px;
+}
+.child {
+  width: 35%;
+  height: 50%;
+}
+.button1 {
+  padding: 10px 150px;
+  background-color: white;
+  border-radius: 9px;
+  border: 1px solid gray;
+}
+
+.box-1 {
+  background-color: #e0f7fa;
+  margin-top: 20px;
+  padding-left: 15px;
+  width: 100%;
+  height: ;
+}
+
+.line {
+  display: flex;
+  padding: 0 50px;
+}
+
+.text {
+  font-weight: 400;
+  margin: 0 50px;
+  font-size: 18px;
+}
+
+.button2 {
+  padding: 10px 40px;
+  border-radius: 15px;
+  background-color: #281133;
+  color: white;
+  border: 1px solid gray;
+  margin: 0 60px 10px 50px;
+}
+
+.button3 {
+  padding: 10px 50px;
+  background-color: lightgray;
+  border-radius: 10px;
+  border: none;
+}
+
+.footer {
+  background-color: lightgreen;
+  padding: 30px 30px 30px 50px;
+}
+
+.last {
+  display: flex;
+  padding: -10px;
+}
+
+.button4 {
+  background-color: lightgreen;
+  border: 1px solid gray;
+  margin-left: 10%;
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.last-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 30px);
+  font-size: 19px;
+}
+
+.last-2 {
+  display: flex;
+  margin-top: 30px;
+}
+
+.last-3 {
+  font-size: 19px;
+  line-height: 0.5;
+  font-weight: 400;
+  padding-right: 25%;
+}
+
+.last-4 {
+  text-align: center;
+  font-size: 17px;
+}
+.last-5 {
+  background-color: lightgreen;
+  padding: 10px 20px;
+  border: 1px solid none;
+}
+.button5 {
+  background-color: #281133;
+  padding: 13px;
+  color: white;
+  border: none;
+  margin-left: 20px;
+}
