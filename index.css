@@ -9,10 +9,13 @@ body {
 .navbar {
   padding: 10px 10px;
   width: 90%;
+
   margin-left: 40px;
   box-shadow: 0 3px 3px lightgray;
   background-color: white;
   margin-top: 60px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .navbar,
 a {
@@ -69,7 +72,8 @@ a {
   margin-top: -1.2px;
 }
 .child {
-  width: 35%;
+  width: 100%;
+  max-width: 500px;
   height: 50%;
 }
 .button1 {
@@ -84,7 +88,6 @@ a {
   margin-top: 20px;
   padding-left: 15px;
   width: 100%;
-  height: ;
 }
 
 .line {
@@ -113,7 +116,9 @@ a {
   border-radius: 10px;
   border: none;
 }
-
+.word2 {
+  padding: 0 50px;
+}
 .footer {
   background-color: lightgreen;
   padding: 30px 30px 30px 50px;
@@ -134,12 +139,15 @@ a {
 }
 
 .last-1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 30px);
-  font-size: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
-
+.footer-column {
+  width: 23%;
+  min-width: 150px;
+}
 .last-2 {
   display: flex;
   margin-top: 30px;
@@ -151,7 +159,11 @@ a {
   font-weight: 400;
   padding-right: 25%;
 }
-
+.word {
+  font-size: 19px;
+  padding-top: 13px;
+  padding-left: 10%;
+}
 .last-4 {
   text-align: center;
   font-size: 17px;
@@ -167,4 +179,113 @@ a {
   color: white;
   border: none;
   margin-left: 20px;
+}
+
+.icon {
+  display: none;
+}
+.meds {
+  color: white;
+  font-size: 30px;
+}
+
+/* Phone styling */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  .signin,
+  .cm,
+  .campaign,
+  .img1,
+  .works {
+    display: none;
+  }
+  .navbar {
+    width: 85%;
+  }
+  .icon {
+    display: flex;
+    font-size: 45px;
+    cursor: pointer;
+    position: relative;
+    right: -90px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  .section-2 {
+    display: grid;
+  }
+  .child {
+    width: 90%;
+    height: 300px;
+    margin-left: 20px;
+  }
+  .donate {
+    margin-top: 20px;
+    margin-left: 39px;
+  }
+
+  .line {
+    padding: 10px;
+    margin-top: -20px;
+    margin: 0 0 0 13px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+  .phone {
+    display: flex;
+  }
+
+  .button2 {
+    padding: 10px 20px;
+  }
+  .button3 {
+    padding: 8px 25px;
+  }
+  .button1 {
+    padding: 10px 80px;
+    margin-left: 50px;
+  }
+  .word2 {
+    font-size: 18px;
+  }
+
+  .last {
+    display: grid;
+  }
+
+  .word {
+    display: flex;
+    font-size: 15px;
+    margin-left: -50px;
+    margin-top: -20px;
+  }
+  .meds {
+    font-size: 38px;
+    margin-left: -8px;
+  }
+
+  .button4 {
+    margin: -3px 0 5px -10px;
+  }
+
+  .last-2 {
+    display: grid;
+  }
+  .last-3 {
+    font-size: 15px;
+  }
+  .last-4 {
+    font-size: 15px;
+  }
+  .footer-column {
+    width: 48%;
+    margin-bottom: 15px;
+  }
 }
