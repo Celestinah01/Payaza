@@ -214,7 +214,7 @@ a {
     font-size: 45px;
     cursor: pointer;
     position: relative;
-    right: -80px;
+    right: -60px;
   }
   h2 {
     font-size: 15px;
@@ -292,5 +292,8 @@ a {
   .footer-column {
     width: 48%;
     margin-bottom: 15px;
+  }
+  .Contact {
+    font-size: 10px;
   }
 }
