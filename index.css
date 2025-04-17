@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 .navbar {
   padding: 10px 10px;
@@ -190,11 +191,13 @@ a {
 }
 
 /* Phone styling */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+  html,
   body {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
   }
   .signin,
   .cm,
@@ -211,10 +214,10 @@ a {
     font-size: 45px;
     cursor: pointer;
     position: relative;
-    right: -90px;
+    right: -80px;
   }
   h2 {
-    font-size: 17px;
+    font-size: 15px;
   }
   .section-2 {
     display: grid;
@@ -230,9 +233,11 @@ a {
   }
 
   .line {
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     margin-top: -20px;
-    margin: 0 0 0 13px;
+    margin: 0 0 0 50px;
   }
 
   .text {
@@ -279,10 +284,10 @@ a {
     display: grid;
   }
   .last-3 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .last-4 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .footer-column {
     width: 48%;
